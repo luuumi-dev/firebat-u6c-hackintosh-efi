@@ -4,7 +4,7 @@
  * ASL+ Optimizing Compiler/Disassembler version 20251212 (64-bit version)
  * Copyright (c) 2000 - 2025 Intel Corporation
  * 
- * Compilation of "/Users/Shared/EFI/EFI/OC/ACPI/SSDT-CPUR.dsl"
+ * Compilation of "/Users/Shared/build/antigravity/scratch/rdna3-driver/hardware/efi_firebat_u6c_simplify/EFI/OC/ACPI/SSDT-CPUR.dsl"
  * C source code output
  * AML code block contains 0x7A0 bytes
  *

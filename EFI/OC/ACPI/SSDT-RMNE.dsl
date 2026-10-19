@@ -5,7 +5,7 @@
  * 
  * Disassembling to symbolic ASL+ operators
  *
- * Disassembly of /Users/Shared/EFI/EFI/OC/ACPI/SSDT-RMNE.aml
+ * Disassembly of /Users/Shared/build/antigravity/scratch/rdna3-driver/hardware/efi_firebat_u6c_simplify/EFI/OC/ACPI/SSDT-RMNE.aml
  *
  * Original Table Header:
  *     Signature        "SSDT"

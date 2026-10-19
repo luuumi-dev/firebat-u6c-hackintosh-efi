@@ -5,7 +5,7 @@
  * 
  * Disassembling to symbolic ASL+ operators
  *
- * Disassembly of /Users/Shared/EFI/EFI/OC/ACPI/SSDT-XOSI.aml
+ * Disassembly of /Users/Shared/build/antigravity/scratch/rdna3-driver/hardware/efi_firebat_u6c_simplify/EFI/OC/ACPI/SSDT-XOSI.aml
  *
  * Original Table Header:
  *     Signature        "SSDT"
