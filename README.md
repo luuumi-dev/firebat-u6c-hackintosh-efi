@@ -2,21 +2,8 @@
 
 [![macOS](https://img.shields.io/badge/macOS-Sonoma%2014.8.x-success?logo=apple&logoColor=white)](https://www.apple.com/macos/sonoma/)
 [![OpenCore](https://img.shields.io/badge/OpenCore-1.0.x-blue?logo=dependabot&logoColor=white)](https://github.com/acidanthera/OpenCorePkg)
-[![AI Engineered](https://img.shields.io/badge/Engineered%20with-Claude%20%26%20Gemini-8A2BE2?logo=openai&logoColor=white)](#-built-entirely-with-ai-anthropic-claude--google-gemini)
 
 Fully configured and verified **OpenCore EFI** for the **Firebat U6C** laptop powered by the **AMD Ryzen 7 H 255** (Zen 4 Hawk Point APU) and integrated **AMD Radeon 780M (RDNA 3 / GFX1103)** running **macOS Sonoma 14.8.x**.
-
----
-
-## 🤖 Built Entirely with AI (Anthropic Claude & Google Gemini)
-
-> **Этот проект и вся конфигурация OpenCore были полностью исследованы, спроектированы, протестированы и отлажены искусственным интеллектом.**
->
-> Разработка велась в беспрецедентной коллаборации двух ведущих автономных ИИ-агентов:
-> * **Anthropic Claude (Claude Code)** — автономная диагностика сетевого стека, реализация демона сброса USB PHY (`ue200watch`), низкоуровневый реверс-инжиниринг аппаратного ускорения RDNA 3.
-> * **Google DeepMind Gemini (Antigravity)** — анализ и дизассемблирование драйверов ядра Realtek, устранение паник ядра, адаптация ACPI-таблиц (`SSDT-USB-Reset`), выявление расхождений в регистрах памяти GCVM/GART по исходникам Linux.
->
-> Ни одна строка конфигурации не потребовала от пользователя ручного написания кода или ввода терминальных команд в macOS.
 
 ---
 
