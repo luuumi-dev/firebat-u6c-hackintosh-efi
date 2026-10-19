@@ -1,9 +1,9 @@
 # Firebat U6C (AMD Ryzen 7 H 255) Hackintosh — OpenCore EFI
 
-[![macOS](https://img.shields.io/badge/macOS-Sonoma%2014.8.x-success?logo=apple&logoColor=white)](https://www.apple.com/macos/sonoma/)
+[![macOS](https://img.shields.io/badge/macOS-Tahoe%20(Darwin%2025.x)-success?logo=apple&logoColor=white)](https://www.apple.com/macos/)
 [![OpenCore](https://img.shields.io/badge/OpenCore-1.0.x-blue?logo=dependabot&logoColor=white)](https://github.com/acidanthera/OpenCorePkg)
 
-Fully configured and verified **OpenCore EFI** for the **Firebat U6C** laptop powered by the **AMD Ryzen 7 H 255** (Zen 4 Hawk Point APU) and integrated **AMD Radeon 780M (RDNA 3 / GFX1103)** running **macOS Sonoma 14.8.x**.
+Fully configured and verified **OpenCore EFI** for the **Firebat U6C** laptop powered by the **AMD Ryzen 7 H 255** (Zen 4 Hawk Point APU) and integrated **AMD Radeon 780M (RDNA 3 / GFX1103)** running **macOS Tahoe (Darwin 25.x)**.
 
 ---
 
@@ -51,7 +51,7 @@ Fully configured and verified **OpenCore EFI** for the **Firebat U6C** laptop po
 
 ### 2. Kernel Extensions (Kexts)
 * **`Lilu.kext`** (v1.7.3): Foundation kernel patcher.
-* **`AMFIPass.kext`** (v1.4.1): Injected directly after Lilu to bypass AMFI entitlement restrictions on macOS Sonoma 14.4+ for third-party extensions.
+* **`AMFIPass.kext`** (v1.4.1): Injected directly after Lilu to bypass AMFI entitlement restrictions on macOS Tahoe / Sonoma for third-party extensions.
 * **`VirtualSMC.kext`**: SMC emulation for AMD.
 * **`VoodooI2C.kext` & `VoodooI2CHID.kext`**: Multitouch touchpad support.
 * **`VoodooPS2Controller.kext`**: Built-in keyboard support.
