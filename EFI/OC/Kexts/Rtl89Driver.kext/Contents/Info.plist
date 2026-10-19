@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Rtl89Driver</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.luuumi.driver.Rtl89Driver</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Rtl89Driver</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>Rtl89Driver</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.luuumi.driver.Rtl89Driver</string>
+			<key>IOClass</key>
+			<string>Rtl89Driver</string>
+			<key>IOMatchCategory</key>
+			<string>POD</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0xb85210ec</string>
+			<key>IOProbeScore</key>
+			<integer>1000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>IOUserClientClass</key>
+			<string>Rtl89UserClient</string>
+			<key>AutoJoinSSID</key>
+			<string>WiFi</string>
+			<key>AutoJoinPassword</key>
+			<string>PASSWORD</string>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IONetworkingFamily</key>
+		<string>3.2</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>2.9</string>
+		<key>com.apple.kpi.bsd</key>
+		<string>14.0.0</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>14.0.0</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>14.0.0</string>
+		<key>com.apple.kpi.mach</key>
+		<string>14.0.0</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Network-Root</string>
+</dict>
+</plist>
