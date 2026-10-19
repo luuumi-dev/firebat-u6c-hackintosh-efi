@@ -78,5 +78,6 @@ Included in `tools/ue200/` is an automated watchdog daemon:
 ## 👥 Credits & Acknowledgments
 * **Lead Maintainer & Systems / Hardware Testing:** [@luuumi-dev](https://github.com/luuumi-dev)
 * **Kernel & Low-Level AI Systems Engineering:** Anthropic Claude & Google DeepMind Gemini (Antigravity)
+* **Pioneering macOS AMD GPU Research & Architecture:** [Cobalt64](https://cobalt64.com) & **nullmoth**
 * **OpenCore Bootloader:** [Acidanthera Team](https://github.com/acidanthera)
 * **AMD Vanilla Patches:** AMD-OSX community
