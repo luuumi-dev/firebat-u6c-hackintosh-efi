@@ -50,7 +50,7 @@ Fully configured and verified **OpenCore EFI** for the **Firebat U6C** laptop po
 | **USB 2.0 / USB 3.0** | ✅ Working | Native AppleUSBXHCIPCI with `SSDT-USB-Reset.aml` |
 | **Wired Network (UE200)** | ✅ Working | Auto-reconnected via `ue200watch` daemon |
 | **Phone Tethering** | ✅ Working | Native AppleUSBEthernet (iPhone) / `HoRNDIS.kext` (Android) |
-| **3D Hardware Acceleration** | ⏳ In Progress | Native RDNA3 Metal driver in active development ([see driver repository](https://github.com/)) |
+| **3D Hardware Acceleration** | ⏳ In Progress | Native RDNA3 Metal driver in active development ([see driver repository](https://github.com/luuumi-dev/amd-rdna3-macos-driver)) |
 
 ---
 
